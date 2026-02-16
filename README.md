@@ -80,10 +80,7 @@ jupyter notebook introduction_to_pandas.ipynb
 ```
 pandas/
 ├── introduction_to_pandas.ipynb    # Main Jupyter notebook
-├── winemag-data-130k-v2.csv       # Wine reviews dataset
 ├── README.md                       # This file
-└── anaconda_projects/              # Anaconda project files
-    └── db/
 ```
 
 ## 🔍 Key Learning Outcomes
@@ -105,13 +102,6 @@ pandas/
 
 ## 🛠️ Troubleshooting
 
-### Large File Warning
-If you get a warning about the CSV file being too large:
-```bash
-git lfs install
-git lfs track "*.csv"
-git add .gitattributes
-```
 
 ### Authentication Failed
 - Make sure you're using a Personal Access Token, not your password
